@@ -5,6 +5,9 @@ parts:
   - caption: Contents
     chapters:
     - file: prior_knowledge/overview.md
+    - file: scm/overview.md
+      sections:
+      - file: scm/graph_based_approach.ipynb
     - file: ate/overview.md
       sections:
       - file: ate/ols.ipynb
