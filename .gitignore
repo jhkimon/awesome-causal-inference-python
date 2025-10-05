@@ -135,3 +135,4 @@ _build/
 
 # poetry files
 pyproject.toml
+.DS_Store
