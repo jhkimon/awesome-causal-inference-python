@@ -1,5 +1,5 @@
 # SCM
-구조적 인과 모형(SCM)은 design-based approach와 달리, 인과관계를 DAG로 모델링하여 식별 가정을 명시적으로 표현하는 접근법입니다.
+관찰 데이터를 활용해 ground truth 수준의 인과 메커니즘을 추론하기 위해 SCM(Structural Causal Model)을 사용할 수 있습니다.
 
 SCM을 통한 인과추론 과정은 다음과 같이 요약됩니다:
 
