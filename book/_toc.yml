@@ -8,6 +8,7 @@ parts:
     - file: scm/overview.md
       sections:
       - file: scm/frontdoor_criterion.ipynb
+      - file: scm/backdoor_criterion.ipynb
     - file: ate/overview.md
       sections:
       - file: ate/ols.ipynb
