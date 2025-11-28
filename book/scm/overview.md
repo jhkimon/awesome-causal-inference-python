@@ -6,7 +6,7 @@ Structural Causal Model(SCM) 관점에서 인과 추론을 model → identify �
 
 - **Backdoor Criterion**:
 
-  원인과 결과 모두에 영향을 미치는 교란변수(confounder) 를 통제하여, 인과효과를 다음과 같이 식별합니다.
+  원인($X$)과 결과($Y$) 모두에 영향을 미치는 backdoor path를 차단하여 인과효과를 식별합니다.
 
 $$
 P(Y \mid do(X)) = \sum_Z P(Y \mid X, Z) P(Z)
@@ -24,13 +24,9 @@ $$
 
 - **Instrument Variable (IV)**:
   
-  ($X$)와 ($Y$) 간의 내생성(endogeneity) 문제를 해결하기 위해,
+  원인($X$)과 결과($Y$) 간의 내생성 문제를 해결하기 위해,
   ($X$)에는 영향을 주지만 ($Y$) 에는 직접 영향을 미치지 않는 도구변수($Z$)를 사용합니다.  
-  인과효과는 다음과 같이 식별됩니다.
 
-$$
-\hat{\beta}_{IV} = \frac{Cov(Z, Y)}{Cov(Z, X)}
-$$
 
 - **Causal Discovery**:
   
