@@ -1,4 +1,4 @@
-# Structural Causal Model(SCM)
+# SCM
 
 SCM(Structural Causal Model)은 변수 간의 causal mechanism을 구조방정식과 DAG로 표현하는 접근입니다.  
 이 섹션에서는 주요 식별 전략을 중심으로, 실제 데이터를 활용한 인과효과 분석을 다룹니다.
