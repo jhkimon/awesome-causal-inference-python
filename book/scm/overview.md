@@ -50,6 +50,6 @@ SCM(Structural Causal Model)은 변수 간의 causal mechanism을 구조방정�
 ## 4. Causal Discovery
 
 - **목표:**  
-  변수 간 조건부 독립성(Conditional Independence)을 이용해 데이터로부터 DAG 구조를 학습하고 인과 방향성을 탐색합니다.
+  score-based, constraint-based, function-based 등 탐색 알고리즘과 도메인 지식을 활용해 데이터로부터 인과 구조(DAG)를 도출합니다.
 
 - **데이터:** *UCI Auto MPG*
