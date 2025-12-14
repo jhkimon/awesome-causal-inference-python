@@ -5,10 +5,6 @@ parts:
   - caption: Contents
     chapters:
     - file: prior_knowledge/overview.md
-    - file: scm/overview.md
-      sections:
-      - file: scm/backdoor_criterion.ipynb
-      - file: scm/frontdoor_criterion.ipynb
     - file: ate/overview.md
       sections:
       - file: ate/ols.ipynb
@@ -23,3 +19,8 @@ parts:
       - file: cate_and_policy/parametric_cate.ipynb
       - file: cate_and_policy/nonparametric_cate.ipynb
       - file: cate_and_policy/policy_learning.ipynb
+    - file: scm/overview.md
+      sections:
+      - file: scm/backdoor_criterion.ipynb
+      - file: scm/frontdoor_criterion.ipynb
+      - file: scm/causal_discovery.ipynb
