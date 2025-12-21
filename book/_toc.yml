@@ -19,3 +19,8 @@ parts:
       - file: cate_and_policy/parametric_cate.ipynb
       - file: cate_and_policy/nonparametric_cate.ipynb
       - file: cate_and_policy/policy_learning.ipynb
+    - file: scm/overview.md
+      sections:
+      - file: scm/backdoor_criterion.ipynb
+      - file: scm/frontdoor_criterion.ipynb
+      - file: scm/causal_discovery.ipynb
