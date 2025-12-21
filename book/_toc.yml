@@ -20,8 +20,10 @@ parts:
       - file: cate_and_policy/nonparametric_cate.ipynb
       - file: cate_and_policy/policy_learning.ipynb
       - file: cate_and_policy/iv.ipynb
-        title: CATE with Instrumental Variables
       - file: cate_and_policy/cate_with_nn.ipynb
-        title: CATE with Neural Networks
       - file: cate_and_policy/interpretability.ipynb
-        title: CATE Interpretability
+    - file: scm/overview.md
+      sections:
+      - file: scm/backdoor_criterion.ipynb
+      - file: scm/frontdoor_criterion.ipynb
+      - file: scm/causal_discovery.ipynb
